@@ -85,6 +85,32 @@
 
     <link href="{{ asset('css/af2678c6ff40ba3a45d4d4b2dd7a0635.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
+
+    <style>
+        .bg-primary {
+            background-color: #0BC619 !important;
+        }
+        .bg-accent {
+            background-color: #20CC69 !important;
+        }
+        .bg-primary-dark {
+            background-color: #0BA416 !important;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #0BC619;
+            border-color: #0BC619;
+            box-shadow: none;
+        }
+        .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #0BA416!important;
+            border-color: #0BA416!important;
+        }
+        .bg-primary-2 {
+            background-color: #0BA416 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -248,7 +274,7 @@
                     </ul>
                 </div>
                 <div class="col" data-aos="fade-left" data-aos-delay="250">
-                    <div class="tab-content">
+                    <div class="tab-content px-2">
                         <div class="tab-pane fade show active" id="amazing-design" role="tabpanel" aria-labelledby="tab-1">
                             <div class="row justify-content-around align-items-center">
                                 <div class="col-8 col-sm-4 col-lg-4 col-xl-5">
@@ -297,10 +323,165 @@
         </div>
     </section>
 
+    <section class="bg-accent row no-gutters o-hidden">
+        <div class="container">
+            <div class="row align-items-center justify-content-around flex-lg-row-reverse">
+                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pl-lg-5 pl-xl-0">
+                    <div data-aos="fade-in" data-aos-offset="250">
+                        {{-- <img src="img/logos/payment/google_pay.png" alt="Google Pay banner" width="100%" height="auto" class="bg-primary"> --}}
+                        <h2 class="h1 text-center text-lg-center text-white">Checking out has never been easier</h2>
 
+                        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+                            <div class="my-4" data-aos="fade-left" data-aos-delay="100">
+                                <div class="d-flex text-white">
+                                    <div class="mr-3 mr-md-4">
+                                        <img src="img/icons/theme/shopping/bag-2.svg" alt="Bookmark icon text-white" class="icon bg-primary" data-inject-svg>
+                                    </div>
+                                    <div>
+                                        <h5>More Convinience</h5>
+                                        <div>
+                                            Thanks to Google Pay, checking out hassles are a thing of the past. Pay for items in your cart in the snap of a finger
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4" data-aos="fade-left" data-aos-delay="200">
+                                <div class="d-flex text-white">
+                                    <div class="mr-3 mr-md-4">
+                                        <img src="img/icons/theme/general/lock.svg" alt="Selection interface icon" class="icon bg-primary" data-inject-svg>
+                                    </div>
+                                    <div>
+                                        <h5>Secure all way through</h5>
+                                        <div>
+                                            We take security seriously. And so does Google Pay. Your order transactions are secure from the start, even after you exit the app.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-xl-6">
+                    <div class="row justify-content-center" data-jarallax-element="-50">
+                        <div class="col-10 col-sm-8 col-md-6 col-lg-8 col-xl-6" data-aos="zoom-in" data-aos-delay="250">
+                            <img class="img-fluid position-relative" src="img/mobile-app/mobile-app-3.png" alt="Screenshot">
+                            <div class="h-75 w-75 position-absolute bottom right d-none d-lg-block" data-jarallax-element="-50">
+                                <div class="blob blob-4 w-100 h-100 bg-success opacity-90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="o-hidden">
+        <div class="container">
+            <div class="row align-items-center justify-content-around text-center text-lg-left">
+                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0 order-lg-2">
+                    <div>
+                        <h2 class="display-4">Grab it right now</h2>
+                        <p class="lead">Download our app today and see what you're missing out on 😊</p>
+                        <div class="d-flex flex-column flex-sm-row mt-4 mt-md-5 justify-content-center justify-content-lg-start">
+                            <a href="#" class="mr-2 form-group">
+                                <img alt="App Store" src="img/mobile-app/ios-comingsoon-appstore.png" width="162px" height="auto"/>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.aventraders" target="_blank" class="mr-2 form-group">
+                                <img alt="App Store" src="img/mobile-app/google-play.svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg order-lg-1">
+                    <div class="row justify-content-center" data-jarallax-element="-50">
+                        <div class="col-10 col-sm-8 col-md-6 col-lg-8 col-xl-6">
+                            <img class="img-fluid position-relative" src="img/mobile-app/mobile-app-4.png" alt="Screenshot">
+                            <div class="h-50 w-50 position-absolute bottom left d-none d-lg-block" data-jarallax-element="-50">
+                                <div class="blob blob-2 w-100 h-100 bg-primary-2 opacity-90 top right"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-auto mr-xl-5 col-md-3 mb-4 mb-md-0">
+                    <h5>Company</h5>
+                    <ul class="nav flex-row flex-md-column">
+                        <li class="nav-item mr-3 mr-md-0">
+                            <a href="#" class="nav-link fade-page px-0 py-2">About</a>
+                        </li>
 
+                        <li class="nav-item mr-3 mr-md-0">
+                            <a href="#" class="nav-link fade-page px-0 py-2">Privacy Policy</a>
+                        </li>
+
+                        <li class="nav-item mr-3 mr-md-0">
+                            <a href="landing-3.html" class="nav-link fade-page px-0 py-2">Terms and Conditions</a>
+                        </li>
+
+                        {{-- <li class="nav-item mr-3 mr-md-0">
+                            <a href="landing-4.html" class="nav-link fade-page px-0 py-2">Landing 4</a>
+                        </li>
+                        <li class="nav-item mr-3 mr-md-0">
+                            <a href="landing-5.html" class="nav-link fade-page px-0 py-2">Landing 5</a>
+                        </li>
+                        <li class="nav-item mr-3 mr-md-0">
+                            <a href="" class="nav-link fade-page px-0 py-2">Landing 6</a> --}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
+                <div class="col-auto">
+                    <div class="d-flex flex-column flex-sm-row align-items-center text-small">
+                        <div class="text-muted">&copy; 2020 Aven Traders{{-- subject to Google's <a href="https://www.google.com/policies/privacy/" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto mt-3 mt-lg-0">
+                    <ul class="list-unstyled d-flex mb-0">
+                        <li class="mx-3">
+                            <a href="#" class="hover-fade-out">
+                                <img src="assets/img/icons/social/dribbble.svg" alt="Dribbble" class="icon icon-xs bg-white" data-inject-svg>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="hover-fade-out">
+                                <img src="assets/img/icons/social/twitter.svg" alt="Twitter" class="icon icon-xs bg-white" data-inject-svg>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="hover-fade-out">
+                                <img src="assets/img/icons/social/github.svg" alt="Github" class="icon icon-xs bg-white" data-inject-svg>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="hover-fade-out">
+                                <img src="assets/img/icons/social/facebook.svg" alt="Facebook" class="icon icon-xs bg-white" data-inject-svg>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="#" class="hover-fade-out">
+                                <img src="assets/img/icons/social/google.svg" alt="Google" class="icon icon-xs bg-white" data-inject-svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
