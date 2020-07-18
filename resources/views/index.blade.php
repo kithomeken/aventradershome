@@ -119,7 +119,7 @@
     </div>
 
     <div class="navbar-container bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light py-2" data-sticky="top">
+        <nav class="navbar navbar-expand-lg navbar-light position-fixed scrolled py-2" data-sticky="top">
             <div class="container">
                 <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
                     <h3 class="display-6 mb-0">
@@ -551,7 +551,7 @@
 
     <style>
         body:not(.loaded) {
-            overflow: auto!important;
+            overflow-y: auto!important;
         }
         .loader {
             display: none!important;
