@@ -551,7 +551,7 @@
 
     <style>
         body:not(.loaded) {
-            overflow: auto!important;
+            overflow-y: auto!important;
         }
         .loader {
             display: none!important;
